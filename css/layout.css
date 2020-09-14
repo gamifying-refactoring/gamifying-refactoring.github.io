@@ -1,0 +1,43 @@
+div.notices.note p {
+    border-top: 30px solid #8451a1;
+    background: #31394D;
+}
+
+div.notices.note p:first-child:after {
+    content: '';
+}
+
+div.notices p:first-child:before {
+    content: "";
+}
+
+div.notices p {
+    color: #FFF;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+h1 {
+    text-transform: none;
+}
+
+.smiley {
+    margin: -4px !important;
+    display: inline !important;
+}
+
+.comic-font {
+    font-family: "Comic Sans MS"
+}
+
+h5 {
+    text-align: center;
+    color: #8451A1;
+}

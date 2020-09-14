@@ -1,0 +1,120 @@
+[
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/idea/",
+	"title": "Idea",
+	"tags": [],
+	"description": "",
+	"content": " Refactoring is an important concept which is really fun to learn and practice. Hence, I wanted to gamify it.\n Foundation of the idea The idea is to IDENTIFY code smells and understand or justify WHY is something really a smell. Don\u0026rsquo;t justify a smell on the grounds of understandability, readability or flexibility. Go beyond ilities and ities !! Don\u0026rsquo;t state \u0026ldquo;Long method is a smell because it is not readable\u0026rdquo;, rather consider this as an opportunity to go beyond reasoning which is not measurable.\n Go beyond ilities and your gut to figure out why is something really a smell.  Before moving on, I will quickly mention the definition of refactoring which is gladly reused from refactoring.com Refactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior. Its heart is a series of small behavior preserving transformations. Each transformation (called a \u0026ldquo;refactoring\u0026rdquo;) does little, but a sequence of these transformations can produce a significant restructuring. Since each refactoring is small, it\u0026rsquo;s less likely to go wrong. The system is kept fully working after each refactoring, reducing the chances that a system can get seriously broken during the restructuring.\n "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/structure/",
+	"title": "Structure",
+	"tags": [],
+	"description": "",
+	"content": "Structure of the game This game is played between 5 teams, each team consists of 2 players. The game is organized into 4 rounds.\nRound1 has 2 passes - each pass consists of 5 questions, one for each team.\nRound2, Round3 and Round4 have a single pass each.\nAt the end of each round, a team with the lowest score gets eliminated.\n"
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/wildcard/",
+	"title": "Wildcard",
+	"tags": [],
+	"description": "",
+	"content": "Wildcard Elimination sounds natural in a game but we are here to learn and learn together. It doesn\u0026rsquo;t make sense to leave someone out from a learning journey.\n Wildcard is an opportunity for eliminated teams to make a come back. A team that gets eliminated at the end of a round gets an opportunity to participate in OPEN questions of the next round. This is their opportunity to score, come back in the game and knock other teams off.\nThis idea does have a side-effect though.\nLet\u0026rsquo;s assume that a team gets eliminated at the end of Round1 and makes a comeback by participating in OPEN questions of Round2. This means there will be 2 eliminations at the end of Round2 because Round3 is played between 3 teams.\nEliminated teams from Round2 can participate in OPEN questions of Round3 and take their total high enough to go to the last round which has only 2 teams.\nEliminations still exist but no one is left out completely. The idea behind wildcard is to keep everyone engaged in the game while still keeping the fun element alive.\n "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/rules/",
+	"title": "Rules",
+	"tags": [],
+	"description": "",
+	"content": "Rules of the game The rules are simple -\n Every question is designed with N smells The team answering a question needs to identify N smells and justify each of them, in a total of 2 minutes The team gets one point for each right smell and one point for each valid justification  No ilities, no ities while justifying a smell    Every game needs to have a \u0026ldquo;fun\u0026rdquo; element in it. Keeping this in mind, a concept of OPEN question was brought in.\n OPEN question  If a team can not identify or justify all the smells, the question becomes OPEN for any other team to pick. In order to pick an OPEN question, a team or any of its members needs to ping “Picked” on Zoom chat only after the question has been confirmed OPEN The first 2 teams to ping “Picked” get the OPEN question  OPEN questions also push other teams have to be attentive because this is an opportunity for them to score.\n Rules for OPEN questions The rules for OPEN questions are a little different -\n The team gets 1 minute to identify and/or justify the remaining smells The team gets double of all the points: 2 points for each smell and 2 for each valid justification  "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/ideology_shift/",
+	"title": "Ideology Shift",
+	"tags": [],
+	"description": "",
+	"content": "Writing code that has smells  Creating code with smells and that too intentionally was probably the most difficult part of the preparation.\n This is because of a few reasons -\n You don\u0026rsquo;t write code with smells in real life, at least not intentionally. Typically I would think about refactoring code but this time I had to tell my brain to think about writing code with smells. Felt like a lot of cognitive load in itself Writing code that reflects our not-so-obvious mistakes in daily life was another challenge Writing code with increasing level of complexity was a little tough for me I wanted to create questions where each question has N smells, (N \u0026gt;= 1). So, grouping of smells became another challenge Creating some guidelines (mentioned below) in each question turned a challenge in itself. As a part of the guideline, I also wanted to mention that a team will not be getting any points for mentioning A,B,C smells. This effectively required me to think about all the possible smells that participants might point out.  This is what I finally ended up with -\n All the questions in Pass1 of Round1 have 1 code smell each and questions in Pass2 of Round1 have 2 code smells each All the questions in Round2 have 3 code smells each All the questions in Round3 have 4 code smells each Last round has one question which I call a \u0026ldquo;mega question\u0026rdquo;, has 11 code smells  Each question / code sample also has some guidelines which look like the following -\n Expected smells = 1 Points for each smell = 1 Points for each justification = 1 Time available = 2 minutes No points for mentioning - 1. Multiple classes in one file 2. Hardcoded movies in MovieRepository 3. MovieRepository returns mutable movies 4. movies in MovieRepository is a list instead of a domain abstraction like Movies extending list or containing list "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/virtual_run/",
+	"title": "Virtual Run",
+	"tags": [],
+	"description": "",
+	"content": "Let\u0026rsquo;s do a virtual run Me\u0026gt; Team1 let me know once you are ready. I will share my screen and you get 2 minutes to identify and justify smells\nTeam1\u0026gt; We are ready\nMe\u0026gt; Sharing my screen on Zoom and starting the timer. Your time starts now.\nExpected smells = 3 Points for each smell = 1 Points for each justification = 1 Time available = 2 minutes No points for mentioning - 1. CodeWithSmells is a bad name class CodeWithSmells: def __init__(self, quantity, price): self.quantity = quantity self.price = price def discounted_price(self): base_price = self.quantity * self.price if base_price \u0026gt; 1000: discount_factor = 0.95 else: discount_factor = 0.98 return base_price * discount_factor Team1\u0026gt; Discussing internally over Google Chat, Zoom Chat, WhatsApp or any other tool\nMe\u0026gt; Team, you have 1 minute and 30 seconds left\nTeam1\u0026gt; Code has got Magic numbers, Temp variables and discount_price method is a long method or has multiple responsibilities\nMe\u0026gt; Great. Go on and justify each of them\nTeam1\u0026gt; Magic Number is a smell because it does not communicate the actual intent or the domain meaning. It lets the readers assume and build imagination in their head about the meaning of .95 or .98\nMe\u0026gt; Good. I will give you the points for that\nTeam1\u0026gt; Long method is a smell because it makes it difficult to read and understand the method\nMe\u0026gt; Team, you are going towards \u0026ldquo;ilities\u0026rdquo;, you can do better. You have 50 seconds left\n\u0026hellip;\u0026hellip;\u0026hellip;.goes on\nThat is a very quick run down of what happens during the game. Typically a team will look at the code, quickly see the guidelines and identify smells.\nIdentifying code smells  Magic numbers Temp variable Multiple responsibilities or Long method  Justifying code smells As soon as a smell is identified, team can justify it or team may even choose to justify the smells after all of them are identified. Justification is usually the difficult part because we can\u0026rsquo;t use our favorite words ending with ilities.  Magic Number is a smell because___________________________ Temp Variable is a smell because____________________________ Long method is a smell because_____________________________  After the end of each question we would go through all the smells and justification of each smell to ensure that everyone is aligned with it. Everyone should express their opinions and learn from each other.\n "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/tie_breaker/",
+	"title": "Tie breaker",
+	"tags": [],
+	"description": "",
+	"content": " At the end of each round, a team with the lowest score gets eliminated. In order to resolve ties, a set of questions have been prepared and each question has 2 ideas. A question will be floated around and one of the teams defends one idea while the other team stands against that idea. A debate kicks in and the winner gets safe.\n 1\u0026gt; Convincing the client to do refactoring of an existing code that has smells\nOne team plays the role of a client and other team takes the role of development team. Client says NO to refactoring with reasons while the development team pushes the client to do refactoring. One of the subtle angles to explore is - \u0026ldquo;Does client really have to say Yes or No for refactoring? Why should you even involve client while taking refactoring decision?\u0026rdquo;\n2\u0026gt; Your pair says \u0026ldquo;Let\u0026rsquo;s refactor this code after our story is done\u0026rdquo; where as you prefer to refactor before the story\nOne team defends the idea of refactoring after the story while the other talks about refactoring before the story.\n3\u0026gt; You pair says, “I prefer having multiple assertions in one unit tests”\nOne team defends the idea of having multiple assertions in one unit test whereas the other team talks about having a single assertion in a unit test.\n4\u0026gt; Your pair says, \u0026ldquo;I will create an inheritance hierarchy for classes - PdfExporter and TextExporter because both of them export data\u0026rdquo;\nOne team defends the idea of creating an inheritance hierarchy for classes mentioned above whereas the other team has a differing opinion.\n5\u0026gt; Your pair says, \u0026ldquo;I prefer integration tests, they give me release ready confidence, I don\u0026rsquo;t like writing any unit tests”\nOne team defends the idea of writing only integration tests while the other team talks about the value of unit tests\n6\u0026gt; Refactoring is estimated. Why or why not?\nOne team defends the idea of estimating refactoring whereas the other team stands against that idea\n"
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/scorecard_format/",
+	"title": "Scorecard Format",
+	"tags": [],
+	"description": "",
+	"content": "Get this scorecard format for your team here "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/faqs/",
+	"title": "FAQs",
+	"tags": [],
+	"description": "",
+	"content": "   Question Answer     What happens to a question for which a team can not identify all the smells? That question becomes OPEN for any other team to pick   What happens to a question for which a team can identify the smells but not justify? That question becomes OPEN for any other team to justify   How does a team pick an OPEN question? A team or any of its members needs to ping Picked on Zoom chat only after I confirm a question as OPEN   What if more than one team pings Picked on Zoom? The first 2 teams to ping “Picked” get the OPEN question   What are the rules for OPEN question? You get 1 minute to identify and justify remaining smells, and you get double of all the points: 2 points for each smell, 2 for each valid justification   What if no team signs up for an OPEN question? Question gets discussed within the group and we move on to the next team with next question   What happens if more than one team get the lowest score after a round ends? Tie-breaker kicks in   How does a tie-breaker work? A set of questions have been prepared and each question has 2 ideas. A question will be floated around and one of the teams defends one idea while the other team stands against that idea. A debate kicks in and the winner gets safe.   What is special about Round4, the last round? It is the MEGA round. There is ONLY one question. Teams get one point for each identified smell and two points for each valid justification    "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/summary/",
+	"title": "Summary",
+	"tags": [],
+	"description": "",
+	"content": " It was learning combined with fun for me. Thinking about writing code with smells, thinking about the mistakes that I might make everyday while coding and thinking about the things that I might tend to ignore during development was the real fun.\n We all had good time going back to the roots and questioning things like \u0026ldquo;Why is long method really a smell\u0026rdquo;.\nThis was one of those times where we tried to move beyond \u0026ldquo;gut\u0026rdquo;, instead of saying \u0026ldquo;I think I can create an inheritance hierarchy here\u0026rdquo;, we focussed on \u0026ldquo;what is wrong with the current code\u0026rdquo;. All of us realized \u0026ldquo;the more we go into reasoning about problems in the code, the more the code smells become clearer\u0026rdquo;.\n A few things that you might want to take care of, in case you plan to play this game with your team -\n Don\u0026rsquo;t rush. Reserve good 3 to 4 hours for playing this because the idea is to learn Try and have well balanced teams Being remote makes it a bit challenging to get feedback and reactions. Ask all the participants to turn their camera on Ensure all the code smells in a question are clarified to the entire audience before moving on to the next question Plan proper breaks in between, I didn\u0026rsquo;t   I hope you enjoyed reading, feel free to share your feedback.\n"
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/",
+	"title": "Gamifying Refactoring",
+	"tags": [],
+	"description": "",
+	"content": "Let\u0026rsquo;s gamify refactoring It was the last day of our project and I wanted to connect with my team for the last time (at least in the project), not to say goodbye but to have some fun. I couldn\u0026rsquo;t think of any idea better than \u0026ldquo;Gamifying Refactoring\u0026rdquo; and that is how the idea came to life.\n Refactoring is fun to learn and practice. It is even more fun if you get to learn it together by playing a game. All you got to do is - identify code smells, justify each of them by going beyond ilities, finish all of this in a fixed time and get points for your team. Learn and have fun. This is the idea behind \u0026ldquo;Gamifying Refactoring\u0026rdquo;.\n Let\u0026rsquo;s understand the game, its structure, its rules and have some fun. "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/concept/",
+	"title": "Content Organization",
+	"tags": [],
+	"description": "",
+	"content": "The content of this website is broken down into following sections -\n Idea  This section talks about the idea behind gamification of refactoring   Structure  This section talks about the overall structure of the game including the number of teams involved and various rounds   Wildcard  This section talks about the way eliminated teams can make a comeback and knock other teams off   Rules  This section talks about different rules of the game   Ideology Shift  This section talks about the challenges that I faced in order to create code with smells   Virtual Run  This section does a virtual run of the game through an example   Tie breaker  This section talks about resolving ties   Scorecard Format  This section shows the scorecard format that was used during the game   FAQs  This sections talks about some of the questions that participants might have   Summary  This sections summarises the overall takeaways and a few things to take care of in case you plan to run this game with your team    "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/about_me/",
+	"title": "About Me",
+	"tags": [],
+	"description": "",
+	"content": "Sarthak Makhija I am an application developer at ThoughtWorks. It has been a little more than 8 years that I have been writing software. I had worked with Citigroup and TCS before I joined ThoughtWorks.\nMy Projects I love working on my personal projects in free time. Some of my projects include –\n Serverless article series : Article series on AWS Serverless Data-anon : Data anonymization tool in Kotlin Flips : Feature Toggles library for Java  What I love doing I love reading technical books and sharing my ideas and learnings with the community.\nMy blog I maintain a blog which I call as tech-lessons\n"
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/code_repository/",
+	"title": "Code Repository",
+	"tags": [],
+	"description": "",
+	"content": "I am sure you did not expect this page but this is the reality .\nTrust me, code for this game exists in reality. It is available in Python and Java at this moment. Code is also planned in other programming languages and should be available soon.\nThis is how the overall plan looks at the moment -\nCode for this game is placed in a private git repository within an organization here. Getting access to the code involves the following steps -\n Write to me Share you github id or your github team  I will then provide you the access to all code repositories for the game .\n"
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/credits/",
+	"title": "Credits",
+	"tags": [],
+	"description": "",
+	"content": "Contributors  Thanks to all colleagues at ThoughtWorks for providing feedback which helped me in shaping up this game. (Listing alphabetically)\n  Harsh Mohta Prateek Shah Ranjit Shinde Siddharth Kulkarni Sunit Parekh  Websites  Gihub Pages for Hosting Hugo Theme Learn Hugo Refactoring Refactoring Guru Icon Finder  "
+},
+{
+	"uri": "https://gamifying-refactoring.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

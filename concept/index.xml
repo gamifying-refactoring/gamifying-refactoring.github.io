@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content Organization on Go beyond ilities</title>
+    <link>https://gamifying-refactoring.github.io/concept/</link>
+    <description>Recent content in Content Organization on Go beyond ilities</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 Aug 2020 13:00:31 +0530</lastBuildDate>
+    
+	<atom:link href="https://gamifying-refactoring.github.io/concept/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Idea</title>
+      <link>https://gamifying-refactoring.github.io/concept/idea/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/idea/</guid>
+      <description>Refactoring is an important concept which is really fun to learn and practice. Hence, I wanted to gamify it.
+ Foundation of the idea The idea is to IDENTIFY code smells and understand or justify WHY is something really a smell. Don&amp;rsquo;t justify a smell on the grounds of understandability, readability or flexibility. Go beyond ilities and ities !! Don&amp;rsquo;t state &amp;ldquo;Long method is a smell because it is not readable&amp;rdquo;, rather consider this as an opportunity to go beyond reasoning which is not measurable.</description>
+    </item>
+    
+    <item>
+      <title>Structure</title>
+      <link>https://gamifying-refactoring.github.io/concept/structure/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/structure/</guid>
+      <description>Structure of the game This game is played between 5 teams, each team consists of 2 players. The game is organized into 4 rounds.
+Round1 has 2 passes - each pass consists of 5 questions, one for each team.
+Round2, Round3 and Round4 have a single pass each.
+At the end of each round, a team with the lowest score gets eliminated.</description>
+    </item>
+    
+    <item>
+      <title>Wildcard</title>
+      <link>https://gamifying-refactoring.github.io/concept/wildcard/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/wildcard/</guid>
+      <description>Wildcard Elimination sounds natural in a game but we are here to learn and learn together. It doesn&amp;rsquo;t make sense to leave someone out from a learning journey.
+ Wildcard is an opportunity for eliminated teams to make a come back. A team that gets eliminated at the end of a round gets an opportunity to participate in OPEN questions of the next round. This is their opportunity to score, come back in the game and knock other teams off.</description>
+    </item>
+    
+    <item>
+      <title>Rules</title>
+      <link>https://gamifying-refactoring.github.io/concept/rules/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/rules/</guid>
+      <description>Rules of the game The rules are simple -
+ Every question is designed with N smells The team answering a question needs to identify N smells and justify each of them, in a total of 2 minutes The team gets one point for each right smell and one point for each valid justification  No ilities, no ities while justifying a smell    Every game needs to have a &amp;ldquo;fun&amp;rdquo; element in it.</description>
+    </item>
+    
+    <item>
+      <title>Ideology Shift</title>
+      <link>https://gamifying-refactoring.github.io/concept/ideology_shift/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/ideology_shift/</guid>
+      <description>Writing code that has smells  Creating code with smells and that too intentionally was probably the most difficult part of the preparation.
+ This is because of a few reasons -
+ You don&amp;rsquo;t write code with smells in real life, at least not intentionally. Typically I would think about refactoring code but this time I had to tell my brain to think about writing code with smells. Felt like a lot of cognitive load in itself Writing code that reflects our not-so-obvious mistakes in daily life was another challenge Writing code with increasing level of complexity was a little tough for me I wanted to create questions where each question has N smells, (N &amp;gt;= 1).</description>
+    </item>
+    
+    <item>
+      <title>Virtual Run</title>
+      <link>https://gamifying-refactoring.github.io/concept/virtual_run/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/virtual_run/</guid>
+      <description>Let&amp;rsquo;s do a virtual run Me&amp;gt; Team1 let me know once you are ready. I will share my screen and you get 2 minutes to identify and justify smells
+Team1&amp;gt; We are ready
+Me&amp;gt; Sharing my screen on Zoom and starting the timer. Your time starts now.
+Expected smells = 3 Points for each smell = 1 Points for each justification = 1 Time available = 2 minutes No points for mentioning - 1.</description>
+    </item>
+    
+    <item>
+      <title>Tie breaker</title>
+      <link>https://gamifying-refactoring.github.io/concept/tie_breaker/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/tie_breaker/</guid>
+      <description>At the end of each round, a team with the lowest score gets eliminated. In order to resolve ties, a set of questions have been prepared and each question has 2 ideas. A question will be floated around and one of the teams defends one idea while the other team stands against that idea. A debate kicks in and the winner gets safe.
+ 1&amp;gt; Convincing the client to do refactoring of an existing code that has smells</description>
+    </item>
+    
+    <item>
+      <title>Scorecard Format</title>
+      <link>https://gamifying-refactoring.github.io/concept/scorecard_format/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/scorecard_format/</guid>
+      <description>Get this scorecard format for your team here </description>
+    </item>
+    
+    <item>
+      <title>FAQs</title>
+      <link>https://gamifying-refactoring.github.io/concept/faqs/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/faqs/</guid>
+      <description>Question Answer     What happens to a question for which a team can not identify all the smells? That question becomes OPEN for any other team to pick   What happens to a question for which a team can identify the smells but not justify? That question becomes OPEN for any other team to justify   How does a team pick an OPEN question?</description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://gamifying-refactoring.github.io/concept/summary/</link>
+      <pubDate>Sat, 22 Aug 2020 13:01:53 +0530</pubDate>
+      
+      <guid>https://gamifying-refactoring.github.io/concept/summary/</guid>
+      <description>It was learning combined with fun for me. Thinking about writing code with smells, thinking about the mistakes that I might make everyday while coding and thinking about the things that I might tend to ignore during development was the real fun.
+ We all had good time going back to the roots and questioning things like &amp;ldquo;Why is long method really a smell&amp;rdquo;.
+This was one of those times where we tried to move beyond &amp;ldquo;gut&amp;rdquo;, instead of saying &amp;ldquo;I think I can create an inheritance hierarchy here&amp;rdquo;, we focussed on &amp;ldquo;what is wrong with the current code&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
